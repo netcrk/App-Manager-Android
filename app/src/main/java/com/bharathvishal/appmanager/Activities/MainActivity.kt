@@ -100,7 +100,7 @@ class MainActivity : AppCompatActivity(), CoroutineScope by MainScope() {
         binding.spinnerAppType.isSelected = false
         binding.spinnerAppType.isEnabled = false
 
-        binding.aboutLink.movementMethod = LinkMovementMethod.getInstance()
+       // binding.aboutLink.movementMethod = LinkMovementMethod.getInstance()
     }
 
 
